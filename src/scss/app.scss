@@ -1,0 +1,21 @@
+@import "colors.scss";
+@import "flex.scss";
+@import "grid.scss";
+@import "fonts.scss";
+@import "nav.scss";
+
+//---------------------
+//Top Page
+//---------------------
+.top-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 500px;
+}
+.top-page h1 {
+  margin: 30px 0px;
+}
