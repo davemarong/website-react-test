@@ -1,11 +1,16 @@
-export default function Blog_post_card({ blog_card_info }) {
-  const [first, second] = blog_card_info;
-  const { name, id, header, date, description } = first;
+import Blog_post_card_info from "./Blog_post_card_info";
+export default function Blog_post_card() {
   return (
-    <div>
-      <p>{date}</p>
-      <h1>{header}</h1>
-      <p>{description}</p>
-    </div>
+    <>
+      {Blog_post_card_info.map((item) => {
+        return (
+          <>
+            <p>{item.date}</p>
+            <h1>{item.header}</h1>
+            <p>{item.description}</p>
+          </>
+        );
+      })}
+    </>
   );
 }
