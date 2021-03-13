@@ -5,6 +5,7 @@ const Blog_post_card_info = [
     header: "First post",
     date: "13 march",
     description: "This is really cool",
+    className: "blog_post_card",
   },
   {
     name: "2",
@@ -12,6 +13,7 @@ const Blog_post_card_info = [
     header: "Second post",
     date: "15 march",
     description: "This is fucking awesome",
+    className: "blog_post_card",
   },
   {
     name: "3",
@@ -19,6 +21,7 @@ const Blog_post_card_info = [
     header: "Third post",
     date: "16 march",
     description: "This is godly awesome",
+    className: "blog_post_card",
   },
 ];
 export default Blog_post_card_info;

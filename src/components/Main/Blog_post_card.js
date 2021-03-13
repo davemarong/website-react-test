@@ -1,13 +1,16 @@
 import Blog_post_card_info from "./Blog_post_card_info";
 export default function Blog_post_card() {
+  const reversedBlogPostCardInfo = Blog_post_card_info.reverse();
   return (
     <>
-      {Blog_post_card_info.map((item) => {
+      {reversedBlogPostCardInfo.map((item) => {
         return (
           <>
-            <p>{item.date}</p>
-            <h1>{item.header}</h1>
-            <p>{item.description}</p>
+            <div class="blog_post_card">
+              <p class="blog_post_card_item">{item.date}</p>
+              <h2 class="blog_post_card_item">{item.header}</h2>
+              <p class="blog_post_card_item">{item.description}</p>
+            </div>
           </>
         );
       })}

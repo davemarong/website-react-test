@@ -1,21 +1,28 @@
+@import "variables.scss";
+@import "mixins.scss";
 @import "colors.scss";
-@import "flex.scss";
-@import "grid.scss";
+@import "layout.scss";
 @import "fonts.scss";
 @import "nav.scss";
 
 //---------------------
-//Top Page
+//TOP PAGE
 //---------------------
 .top-page {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
   height: 500px;
 }
 .top-page h1 {
   margin: 30px 0px;
+}
+
+//---------------------
+//BLOG POSTS CARDS
+//---------------------
+.blog_post_card {
+  border-radius: 5px;
+  margin: 20px;
+}
+.blog_post_card_item {
+  margin: 20px 10px;
 }
