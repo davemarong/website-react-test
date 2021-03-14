@@ -26,7 +26,13 @@ export default function Searchbox() {
           return value;
         }
       }).map((value) => {
-        return <div>{value.header}</div>;
+        return (
+          <div className="search_results">
+            <p>{value.date}</p>
+            <h2>{value.header}</h2>
+            <p>{value.description}</p>
+          </div>
+        );
       })}
     </>
   );
