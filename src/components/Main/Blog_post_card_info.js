@@ -1,7 +1,7 @@
 const Blog_post_card_info = [
   {
     name: "s",
-    id: "",
+    id: "1",
     header: "First post",
     date: "13 march",
     description: "This is really cool",
@@ -9,7 +9,7 @@ const Blog_post_card_info = [
   },
   {
     name: "2",
-    id: "",
+    id: "2",
     header: "Second post",
     date: "15 march",
     description: "This is fucking awesome",
@@ -17,7 +17,7 @@ const Blog_post_card_info = [
   },
   {
     name: "3",
-    id: "",
+    id: "3",
     header: "Third post",
     date: "16 march",
     description: "This is godly awesome",
